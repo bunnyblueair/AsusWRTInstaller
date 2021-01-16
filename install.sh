@@ -16,12 +16,12 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 sleep 1s
 echo_date "=====================  【installer】处理完成 ===================="
 
-dbus set crackspeed_version="1.0"
-dbus set softcenter_module_crackspeed_version="1.0"
-dbus set softcenter_module_crackspeed_description="已经没用了，请卸载我！！"
-dbus set softcenter_module_crackspeed_install="1"
-dbus set softcenter_module_crackspeed_name="AsusWRTInstaller"
-dbus set softcenter_module_crackspeed_title="AsusWRTInstaller"
+dbus set asuswrtinstaller_version="1.0"
+dbus set softcenter_module_asuswrtinstaller_version="1.0"
+dbus set softcenter_module_asuswrtinstaller_description="已经没用了，请卸载我！！"
+dbus set softcenter_module_asuswrtinstaller_install="1"
+dbus set softcenter_module_asuswrtinstaller_name="AsusWRTInstaller"
+dbus set softcenter_module_asuswrtinstaller_title="AsusWRTInstaller"
 
 
 sleep 1s
